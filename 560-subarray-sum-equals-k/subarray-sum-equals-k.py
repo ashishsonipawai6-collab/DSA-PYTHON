@@ -17,9 +17,4 @@ class Solution(object):
 
             m[prefix] = m.get(prefix, 0) + 1
 
-        return count
-
-
-
-        return count 
-        
+        return count     
