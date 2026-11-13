@@ -5,18 +5,14 @@ class Solution(object):
         :rtype: bool
         """
         stack = []
-
         pairs = {
             ")" : "(",
             "]" : "[",
             "}" : "{"
         }
-
-
         for char in s:
             if char in "({[":
                 stack.append(char)
-
             else:
                if stack == []:
                     return False 
